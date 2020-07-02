@@ -1,0 +1,192 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-style: 16px;
+	color: #201b2d;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+
+
+}
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+.header {
+
+	background: rgba(78,189,253,1);
+background: -webkit-linear-gradient(top left, rgba(78,189,253,1) 0%, rgba(55,144,217,1) 100%);
+background: -o-linear-gradient(top left, rgba(78,189,253,1) 0%, rgba(55,144,217,1) 100%);
+background: linear-gradient(to bottom right, rgba(78,189,253,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfd', endColorstr='#3790d9', GradientType=1 );
+	padding-top: 62px;
+	color: #fff;
+	padding-bottom: 140px;
+}
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+
+}
+h1 {
+	width: 651px;
+	font-size: 35px;
+}
+span {
+	font-size: 55px;
+}
+.text {
+	width: 405px;
+	margin-top: 47px;
+}
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #ffd429;
+	font-size: 15px;
+	font-weight: bold;
+    color: #2e2a1b;
+	display: block;
+	width: 220px;
+	padding:24px 0px;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 41px;
+	transition: all 0.5s ease;
+}
+.btn:hover {
+	background: #d9ae04;
+}
+.dream {
+	padding-top: 62px;
+}
+.expectation {
+	margin-top: 110px;
+}
+.section_title {
+	text-align: center;
+	padding-bottom: 62px;
+	font-size: 30px;
+}
+.desires {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 125px;
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+}
+.wish-title {
+	font-size: 18px;
+}	
+.wish {
+	background: url(../img/icon1.jpg) no-repeat top;
+	padding-top: 98px;
+}
+.wish-2{
+	background: url(../img/icon2.jpg) no-repeat top;
+}
+.wish-3{
+	background: url(../img/icon3.jpg) no-repeat top;
+}
+.mail {
+	background-color: #ecf3f8;
+	padding-top: 110px;
+	padding-bottom: 103px;
+}
+.input {
+	width: 343px;
+	height: 48px;
+	border: 1px solid #bbbbbb;
+	font-size: 15px;
+	font-family: 'Ubuntu', sans-serif;
+	height: 48px;
+	margin: 15px;
+	padding: 25px 20px;
+	display: block;
+	margin: 0px auto;
+	margin-bottom: 15px;
+}
+.btn-form {
+	border: 0;
+	cursor: pointer;
+	width: 343px;
+	margin-top: 14px;
+	margin-left: 15px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	margin: 0px auto;
+}
+footer {
+	padding-top: 64px;
+	padding-bottom: 67px;
+	background-color: #164d7a;
+}
+.credits {
+	color: #f4f6f8;
+	text-align: center;
+}
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+	h1 {
+		width: auto;
+	}
+	p {
+		width: auto;
+	}
+}
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.wrapper {
+		flex-direction: column;
+	}
+	.offer {
+		width: 100%;
+	}
+	h1 {
+		width: 100%;
+	}
+	.text {
+		width: 100%;
+	}
+	.dream {
+		display: block;
+		width: 641px;
+	}
+	.desires {
+		flex-direction: column;
+	}
+	.wish {
+		width: auto;
+		margin-bottom: 20px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	.dream {
+		width: 100%;
+	}
+	.input {
+		width: 100%;
+	}
+	.btn-form {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+}
