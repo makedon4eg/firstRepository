@@ -1,7 +1,7 @@
 
 $(function () {
 	$(window).scroll(function() {
-	    $('.wish').each(function(){
+	    $('.desires').each(function(){
 	        var imagePos = $(this).offset().top;
 
 	        var topOfWindow = $(window).scrollTop();
